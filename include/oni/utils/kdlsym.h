@@ -8,6 +8,8 @@
 
 #if ONI_PLATFORM==ONI_UNKNOWN_PLATFORM
 #include "kdlsym/default.h"
+#elif ONI_PLATFORM==ONI_PS4
+#include "kdlsym/ps4.h"
 #endif
 
 // Kernel base address, this must be filled out on-startup (normally done in oni_initializeKernel)
